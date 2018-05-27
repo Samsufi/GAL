@@ -41,11 +41,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case PIV:
-        return QString("pivx");
+        return QString("galerians");
     case mPIV:
-        return QString("mpivx");
+        return QString("mgalerians");
     case uPIV:
-        return QString::fromUtf8("upivx");
+        return QString::fromUtf8("ugalerians");
     default:
         return QString("???");
     }
@@ -56,22 +56,22 @@ QString BitcoinUnits::name(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case PIV:
-            return QString("PIV");
+            return QString("GAL");
         case mPIV:
-            return QString("mPIV");
+            return QString("mGAL");
         case uPIV:
-            return QString::fromUtf8("μPIV");
+            return QString::fromUtf8("μGAL");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case PIV:
-            return QString("tPIV");
+            return QString("tGAL");
         case mPIV:
-            return QString("mtPIV");
+            return QString("mtGAL");
         case uPIV:
-            return QString::fromUtf8("μtPIV");
+            return QString::fromUtf8("μtGAL");
         default:
             return QString("???");
         }
@@ -83,22 +83,22 @@ QString BitcoinUnits::description(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case PIV:
-            return QString("PIV");
+            return QString("GAL");
         case mPIV:
-            return QString("Milli-PIV (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-GAL (1 / 1" THIN_SP_UTF8 "000)");
         case uPIV:
-            return QString("Micro-PIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-GAL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case PIV:
-            return QString("TestPIVs");
+            return QString("TestGALs");
         case mPIV:
-            return QString("Milli-TestPIV (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestGAL (1 / 1" THIN_SP_UTF8 "000)");
         case uPIV:
-            return QString("Micro-TestPIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestGAL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +108,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case PIV:
+    case GAL:
         return 100000000;
-    case mPIV:
+    case mGAL:
         return 100000;
-    case uPIV:
+    case uGAL:
         return 100;
     default:
         return 100000000;
@@ -122,11 +122,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case PIV:
+    case GAL:
         return 8;
-    case mPIV:
+    case mGAL:
         return 5;
-    case uPIV:
+    case uGAL:
         return 2;
     default:
         return 0;
