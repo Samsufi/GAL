@@ -183,8 +183,8 @@ public:
         genesis.nNonce = 480350;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("18ca5bd0f015be79474c547c36deb36e7b221cfdd68f2d817a9afe63e5ca7370"));
-        assert(genesis.hashMerkleRoot == uint256("f5b60a3d30844742839146fd6e517907c384f8f1889ea111fdff905dfbb05bdd"));
+        assert(hashGenesisBlock == uint256(""));
+        assert(genesis.hashMerkleRoot == uint256(""));
 
         vSeeds.push_back(CDNSSeedData("localhost", "localhost"));
         // vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "galerians.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
@@ -288,7 +288,7 @@ public:
         genesis.nNonce = 480350;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("18ca5bd0f015be79474c547c36deb36e7b221cfdd68f2d817a9afe63e5ca7370"));
+        assert(hashGenesisBlock == uint256(""));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -360,7 +360,7 @@ public:
         hashGenesisBlock = genesis.GetHash();
         // nDefaultPort = 51476;
         nDefaultPort = 10000;
-        assert(hashGenesisBlock == uint256("18ca5bd0f015be79474c547c36deb36e7b221cfdd68f2d817a9afe63e5ca7370"));
+        assert(hashGenesisBlock == uint256(""));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.

@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2015-2017 The GALR developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,18 +19,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(PIV);
-    unitlist.append(mPIV);
-    unitlist.append(uPIV);
+    unitlist.append(GAL);
+    unitlist.append(mGAL);
+    unitlist.append(uGAL);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case PIV:
-    case mPIV:
-    case uPIV:
+    case GAL:
+    case mGAL:
+    case uGAL:
         return true;
     default:
         return false;
@@ -40,11 +40,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case PIV:
+    case GAL:
         return QString("galerians");
-    case mPIV:
+    case mGAL:
         return QString("mgalerians");
-    case uPIV:
+    case uGAL:
         return QString::fromUtf8("ugalerians");
     default:
         return QString("???");
@@ -55,22 +55,22 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PIV:
+        case GAL:
             return QString("GAL");
-        case mPIV:
+        case mGAL:
             return QString("mGAL");
-        case uPIV:
+        case uGAL:
             return QString::fromUtf8("μGAL");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PIV:
+        case GAL:
             return QString("tGAL");
-        case mPIV:
+        case mGAL:
             return QString("mtGAL");
-        case uPIV:
+        case uGAL:
             return QString::fromUtf8("μtGAL");
         default:
             return QString("???");
@@ -82,22 +82,22 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PIV:
+        case GAL:
             return QString("GAL");
-        case mPIV:
+        case mGAL:
             return QString("Milli-GAL (1 / 1" THIN_SP_UTF8 "000)");
-        case uPIV:
+        case uGAL:
             return QString("Micro-GAL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PIV:
+        case GAL:
             return QString("TestGALs");
-        case mPIV:
+        case mGAL:
             return QString("Milli-TestGAL (1 / 1" THIN_SP_UTF8 "000)");
-        case uPIV:
+        case uGAL:
             return QString("Micro-TestGAL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");

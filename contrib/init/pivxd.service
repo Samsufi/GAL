@@ -1,19 +1,19 @@
 [Unit]
-Description=PIVX's distributed currency daemon
+Description=GALR's distributed currency daemon
 After=network.target
 
 [Service]
-User=pivx
-Group=pivx
+User=galr
+Group=galr
 
 Type=forking
-PIDFile=/var/lib/pivxd/pivxd.pid
+PIDFile=/var/lib/galrd/galrd.pid
 
-ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
+ExecStart=/usr/bin/galrd -daemon -pid=/var/lib/galrd/galrd.pid \
+          -conf=/etc/galr/galr.conf -datadir=/var/lib/galrd
 
-ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
-         -datadir=/var/lib/pivxd stop
+ExecStop=-/usr/bin/galr-cli -conf=/etc/galr/galr.conf \
+         -datadir=/var/lib/galrd stop
 
 Restart=always
 PrivateTmp=true

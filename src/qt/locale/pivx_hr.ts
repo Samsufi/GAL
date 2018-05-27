@@ -62,12 +62,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše PIVX adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your GALR addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše GALR adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše PIVX adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
+        <source>These are your GALR addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše GALR adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdite šifriranje novčanika</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše PIV od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>GALR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your GALs from being stolen by malware infecting your computer.</source>
+        <translation>GALR se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše GAL od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ PIV1!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GAL&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ GAL1!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -397,8 +397,8 @@
         <translation>Pregledajte povijest transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Aktivnosti na privatnost za zPIV</translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>Aktivnosti na privatnost za zGAL</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -601,16 +601,16 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>GALR Core</source>
+        <translation>GALR Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Pošaljite kovanice na PIVX adresu</translation>
+        <source>Send coins to a GALR address</source>
+        <translation>Pošaljite kovanice na GALR adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Zahtjev za plaćanja (generira QR kodove i pivx: URI)</translation>
+        <source>Request payments (generates QR codes and galr: URIs)</source>
+        <translation>Zahtjev za plaćanja (generira QR kodove i galr: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -625,24 +625,24 @@
         <translation>Pregledajte masternode</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp; O PIVX Coreu</translation>
+        <source>&amp;About GALR Core</source>
+        <translation>&amp; O GALR Coreu</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Prikaz informacija o PIVX Coreu</translation>
+        <source>Show information about GALR Core</source>
+        <translation>Prikaz informacija o GALR Coreu</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Izmijenite opcije konfiguracije za PIVX</translation>
+        <source>Modify configuration options for GALR</source>
+        <translation>Izmijenite opcije konfiguracije za GALR</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim PIVX adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your GALR addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim GALR adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim PIVX adresama</translation>
+        <source>Verify messages to ensure they were signed with specified GALR addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim GALR adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@
         <translation>Šifriranje i dešifriranje privatnih ključeva pomoću zaporke</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core klijent</translation>
+        <source>GALR Core client</source>
+        <translation>GALR Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -751,15 +751,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>GALR Core</source>
+        <translation>GALR Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>GALR Core</source>
+        <translation>GALR Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1045,8 +1045,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 GAL</source>
+        <translation>0 GAL</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -1111,15 +1111,15 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX Core se gasi...</translation>
+        <source>GALR Core is shutting down...</source>
+        <translation>GALR Core se gasi...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX adresa za potpisivanje poruke s</translation>
+        <source>The GALR address to sign the message with</source>
+        <translation>GALR adresa za potpisivanje poruke s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1142,16 +1142,16 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove PIVX adrese</translation>
+        <source>Sign the message to prove you own this GALR address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove GALR adrese</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX adresa s kojom je potpisana poruka</translation>
+        <source>The GALR address the message was signed with</source>
+        <translation>GALR adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom PIVX adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified GALR address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom GALR adresom</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1197,8 +1197,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>GALR Core</source>
+        <translation>GALR Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1352,7 +1352,7 @@
     </message>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>galr-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

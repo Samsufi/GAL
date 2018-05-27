@@ -62,12 +62,12 @@
         <translation>Gavimo adresai</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tai jūsų PIVX adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
+        <source>These are your GALR addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tai jūsų GALR adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tai jūsų PIVX adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
+        <source>These are your GALR addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tai jūsų GALR adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar PIVX išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų PIV nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>GALR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your GALs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar GALR išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų GAL nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GAL&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO GAL&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adresas:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a GALR Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Įveskite Pivx adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
     </message>
     <message>
-        <source>The PIVX address to encrypt</source>
-        <translation>PIVX adresas, kurį norite užšifruoti</translation>
+        <source>The GALR address to encrypt</source>
+        <translation>GALR adresas, kurį norite užšifruoti</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this PIVX address</source>
-        <translation>Užšifruoti šio PIVX adreso privatų raktą</translation>
+        <source>Encrypt the private key for this GALR address</source>
+        <translation>Užšifruoti šio GALR adreso privatų raktą</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>zPIV Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zGAL</source>
+        <translation>zGAL Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>Skirtukų įrankių juosta</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>GALR Core</source>
+        <translation>GALR Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Siųsti monetas į PIVX adresą</translation>
+        <source>Send coins to a GALR address</source>
+        <translation>Siųsti monetas į GALR adresą</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir pivx URI)</translation>
+        <source>Request payments (generates QR codes and galr: URIs)</source>
+        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir galr URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Naršyti masternod'us</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Apie PIVX Core</translation>
+        <source>&amp;About GALR Core</source>
+        <translation>&amp;Apie GALR Core</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Rodyti informaciją apie PIVX Core</translation>
+        <source>Show information about GALR Core</source>
+        <translation>Rodyti informaciją apie GALR Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Keisti PIVX konfigūravimo parinktis</translation>
+        <source>Modify configuration options for GALR</source>
+        <translation>Keisti GALR konfigūravimo parinktis</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Pasirašykite pranešimus naudodami savo PIVX adresus, kad įrodytumėte, kad juos turite</translation>
+        <source>Sign messages with your GALR addresses to prove you own them</source>
+        <translation>Pasirašykite pranešimus naudodami savo GALR adresus, kad įrodytumėte, kad juos turite</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais PIVX adresais</translation>
+        <source>Verify messages to ensure they were signed with specified GALR addresses</source>
+        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais GALR adresais</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Atidaryti Masternod'o konfigūracijos failą</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Atidaryti PIVX: URI arba mokėjimo prašymą</translation>
+        <source>Open a GALR: URI or payment request</source>
+        <translation>Atidaryti GALR: URI arba mokėjimo prašymą</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Blokų naršyklės langas</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Rodyti PIVX Core žinyną, kad gautumėte sąrašą su galimomis PIVX komandinės eilutės parinktimis</translation>
+        <source>Show the GALR Core help message to get a list with possible GALR command-line options</source>
+        <translation>Rodyti GALR Core žinyną, kad gautumėte sąrašą su galimomis GALR komandinės eilutės parinktimis</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core piniginė</translation>
+        <source>GALR Core client</source>
+        <translation>GALR Core piniginė</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to PIVX network</source>
-        <translation><numerusform>%n aktyvių prisijungimų PIVX tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų PIVX tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų PIVX tinkle ()</numerusform></translation>
+        <source>%n active connection(s) to GALR network</source>
+        <translation><numerusform>%n aktyvių prisijungimų GALR tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų GALR tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų GALR tinkle ()</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ MultiSend: %1</translation>
         <translation>Teksto etiketė</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
-        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (pivx.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (galr.conf).</source>
+        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (galr.conf).</translation>
     </message>
 </context>
 <context>
@@ -1177,8 +1177,8 @@ MultiSend: %1</translation>
         <translation>Keisti siuntimo adresą</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Įvestas adresas "%1" nėra galiojantis PIVX adresas.</translation>
+        <source>The entered address "%1" is not a valid GALR address.</source>
+        <translation>Įvestas adresas "%1" nėra galiojantis GALR adresas.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1223,16 +1223,16 @@ MultiSend: %1</translation>
         <translation>versija</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>GALR Core</source>
+        <translation>GALR Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bitai)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Apie PIVX Core</translation>
+        <source>About GALR Core</source>
+        <translation>Apie GALR Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1278,16 +1278,16 @@ MultiSend: %1</translation>
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Sveiki atvykę į PIVX Core</translation>
+        <source>Welcome to GALR Core.</source>
+        <translation>Sveiki atvykę į GALR Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur PIVX Core saugos savo duomenis.</translation>
+        <source>As this is the first time the program is launched, you can choose where GALR Core will store its data.</source>
+        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur GALR Core saugos savo duomenis.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core atsisiųs ir saugos PIVX blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
+        <source>GALR Core will download and store a copy of the GALR block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>GALR Core atsisiųs ir saugos GALR blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1298,8 +1298,8 @@ MultiSend: %1</translation>
         <translation>Naudoti pasirinktą duomenų katalogą:</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>GALR Core</source>
+        <translation>GALR Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1440,12 +1440,12 @@ MultiSend: %1</translation>
         <translation>Įveskite adresą kuriam norite siųsti</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.
-To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other GALR addresses after it matures.
+To Add: enter percentage to give and GALR address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus PIVX adresus.
-Norėdami pridėti: įveskite pateiktą procentą ir PIVX adresą, kurį norite pridėti prie MultiSend sąrašo.
+        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus GALR adresus.
+Norėdami pridėti: įveskite pateiktą procentą ir GALR adresą, kurį norite pridėti prie MultiSend sąrašo.
 Norėdami ištrinti: įveskite adresą, kurį norite ištrinti, ir paspauskite ištrinti
 MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
     </message>
@@ -1647,8 +1647,8 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti PIV</translation>
+        <source>Add destinations to send GAL to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti GAL</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1734,32 +1734,32 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Pasirinkite privatumo lygmenį.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 GAL</source>
+        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 GAL</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 GAL</source>
+        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 GAL</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Naudokite 16 atskirų masternod'ų</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 PIV, kad anonimizuotų 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 GAL to anonymize 10000 GAL</source>
+        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 GAL, kad anonimizuotų 10000 GAL</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 PIV, kad anonimizuotų 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 GAL to anonymize 10000 GAL</source>
+        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 GAL, kad anonimizuotų 10000 GAL</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tai yra lėčiausias ir saugiausias variantas. Maksimalus anonimiškumas kainuos.</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV kas 1000 PIV kuriuos anonimizuosite.</translation>
+        <source>0.1 GAL per 10000 GAL you anonymize.</source>
+        <translation>0.1 GAL kas 1000 GAL kuriuos anonimizuosite.</translation>
     </message>
     </context>
 <context>
@@ -1804,12 +1804,12 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Leisti įeinančius ryšius</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Automatiškai paleisti PIVX prisijungus prie sistemos.</translation>
+        <source>Automatically start GALR after logging in to the system.</source>
+        <translation>Automatiškai paleisti GALR prisijungus prie sistemos.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Paleisti PIVX sistemai įsijungiant</translation>
+        <source>&amp;Start GALR on system login</source>
+        <translation>&amp;Paleisti GALR sistemai įsijungiant</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1828,38 +1828,38 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "PIVX".</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GALR.</source>
+        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "GALR".</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/galr-project/galr-project-translations</source>
         <translation>Trūksta kalbos arba vertimas nebaigtas? Padėkite prisidėdami prie vertimų čia: 
-https://www.transifex.com/pivx-project/pivx-project-translations</translation>
+https://www.transifex.com/galr-project/galr-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Įgalinti zPIV Automatinį nukaldinima</translation>
+        <source>Enable zGAL Automint</source>
+        <translation>Įgalinti zGAL Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto PIV, kuris automatiškai bus konvertuotas į zPIV naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming GAL which get automatically converted to zGAL via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto GAL, kuris automatiškai bus konvertuotas į zGAL naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Automatiškai sukurtų zPIV procentas</translation>
+        <source>Percentage of autominted zGAL</source>
+        <translation>Automatiškai sukurtų zGAL procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Pageidautinas zPIV Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zGAL Denomination</source>
+        <translation>Pageidautinas zGAL Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Jungtis prie PIVX tinklo naudojant SOCKS5 tarpinį serverį.</translation>
+        <source>Connect to the GALR network through a SOCKS5 proxy.</source>
+        <translation>Jungtis prie GALR tinklo naudojant SOCKS5 tarpinį serverį.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1965,8 +1965,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Balansas</translation>
+        <source>GAL Balance</source>
+        <translation>GAL Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1989,16 +1989,16 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Dabartinis bendras užrakintas balansas tik žiūrėjimo adresuose</translation>
     </message>
     <message>
-        <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Jūsų dabartinis PIVX balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
+        <source>Your current GALR balance, unconfirmed and immature transactions included</source>
+        <translation>Jūsų dabartinis GALR balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Balansas</translation>
+        <source>zGAL Balance</source>
+        <translation>zGAL Balansas</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su PIVX tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GALR network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su GALR tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2033,8 +2033,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Užrakinti PIV arba Masternode užstatai. Jie yra neįtraukti į zPIV kalimą.</translation>
+        <source>Locked GAL or Masternode collaterals. These are excluded from zGAL minting.</source>
+        <translation>Užrakinti GAL arba Masternode užstatai. Jie yra neįtraukti į zGAL kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2057,8 +2057,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>AutoMint šiuo metu įgalintas ir nustatytas</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in pivx.conf.</source>
-        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' pivx.conf faile.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in galr.conf.</source>
+        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' galr.conf faile.</translation>
     </message>
     </context>
 <context>
@@ -2078,20 +2078,20 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Zerocoin Veiksmai:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su PIVX tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GALR network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su GALR tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 GAL</source>
+        <translation>0.000 000 00 GAL</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -2118,8 +2118,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zGAL</source>
+        <translation>0 zGAL</translation>
     </message>
     <message>
         <source>Security Level:</source>
@@ -2371,8 +2371,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Iš:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Sveiki atvykę į PIVX RPC konsolę.</translation>
+        <source>Welcome to the GALR RPC console.</source>
+        <translation>Sveiki atvykę į GALR RPC konsolę.</translation>
     </message>
     <message>
         <source>never</source>
@@ -2539,8 +2539,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Grąža: </translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 GAL</source>
+        <translation>0 GAL</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2688,8 +2688,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX adresas, kuriuo pasirašyti žinute</translation>
+        <source>The GALR address to sign the message with</source>
+        <translation>GALR adresas, kuriuo pasirašyti žinute</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2712,16 +2712,16 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio PIVX adreso savininkas</translation>
+        <source>Sign the message to prove you own this GALR address</source>
+        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio GALR adreso savininkas</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX adresas, kurio buvo pasirašyta žinutė</translation>
+        <source>The GALR address the message was signed with</source>
+        <translation>GALR adresas, kurio buvo pasirašyta žinutė</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu PIVX adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified GALR address</source>
+        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu GALR adresu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2759,8 +2759,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>GALR Core</source>
+        <translation>GALR Core</translation>
     </message>
     </context>
 <context>
@@ -2985,12 +2985,12 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zGAL</source>
+        <translation>zGAL</translation>
     </message>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>galr-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(numatytas: %s)</translation>
@@ -3024,8 +3024,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Klaida kraunant wallet.dat: Piniginė yra sugadinta</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVX Core</source>
-        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės PIVX Core versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GALR Core</source>
+        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės GALR Core versijos</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3256,8 +3256,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Piniginė užrakinta.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
-        <translation>Piniginę reikia perrašyti: paleiskite PIVX Core iš naujo</translation>
+        <source>Wallet needed to be rewritten: restart GALR Core to complete</source>
+        <translation>Piniginę reikia perrašyti: paleiskite GALR Core iš naujo</translation>
     </message>
     <message>
         <source>Wallet options:</source>

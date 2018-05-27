@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
+SystemD: galrd.service
+Upstart: galrd.conf
+OpenRC:  galrd.openrc
+         galrd.openrcconf
+CentOS:  galrd.init
 
 have been made available to assist packagers in creating node packages here.
 

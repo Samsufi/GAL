@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  pivxd The PIVX core server.
+#  galrd The GALR core server.
 #
 #
 # chkconfig: 345 80 20
-# description: pivxd
-# processname: pivxd
+# description: galrd
+# processname: galrd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/pivxd, see below
-if [ -f /etc/sysconfig/pivxd ]; then
-        . /etc/sysconfig/pivxd
+# you can override defaults in /etc/sysconfig/galrd, see below
+if [ -f /etc/sysconfig/galrd ]; then
+        . /etc/sysconfig/galrd
 fi
 
 RETVAL=0
 
-prog=pivxd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/pivxd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/pivxd}
+prog=galrd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/galrd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/galrd}
 
-# pivxd defaults to /usr/bin/pivxd, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/pivxd}
+# galrd defaults to /usr/bin/galrd, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/galrd}
 
-# pivxd opts default to -disablewallet, override with BITCOIND_OPTS
+# galrd opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {
